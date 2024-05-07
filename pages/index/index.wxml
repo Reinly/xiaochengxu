@@ -3,9 +3,9 @@
 
   <view class="container" bindtap="getData">
     Weixin1
-  
-  </view>
-  <view>你好</view>
+    <view>你好</view>
   <button type="warn" bindtap="getData">按钮</button>
+  </view>
+  
   
 
