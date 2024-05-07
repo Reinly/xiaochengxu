@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<navigation-bar title="Weixin" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+
+  <view class="container" bindtap="getData">
+    Weixin1
+  
+  </view>
+  <view>你好</view>
+  <button type="warn" bindtap="getData">按钮</button>
+  
+
