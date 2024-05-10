@@ -10,7 +10,7 @@
   "window": {
     "navigationBarTitleText": "你大爷",
     "navigationBarBackgroundColor": "#f3514f",
-    "enablePullDownRefresh": true,
+    "enablePullDownRefresh": false,
     "backgroundColor": "#f60",
     "backgroundTextStyle":"dark"
       },
