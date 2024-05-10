@@ -2,7 +2,9 @@
   "entryPagePath": "pages/index/index", 
   "pages": [
     "pages/index/index",
+    "pages/cate/cate",
     "pages/list/list",
+    "pages/profile/profile",
     "pages/cart/cart"
   ],
   "window": {
@@ -12,6 +14,39 @@
     "backgroundColor": "#f60",
     "backgroundTextStyle":"dark"
       },
+  "tabBar": {
+    "selectedColor": "#f3514f",
+    "color": "#666",
+    "backgroundColor": "#efefef",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "/assets/tabbar/index.png", 
+        "selectedIconPath": "/assets/tabbar/index-active.png"
+      },
+      {
+        "text": "分类",
+        "pagePath":  "pages/cate/cate",
+        "iconPath": "/assets/tabbar/cate.png", 
+        "selectedIconPath": "/assets/tabbar/cate-active.png"
+      },
+      {
+        "text": "购物车",
+        "pagePath":  "pages/cart/cart",
+        "iconPath": "/assets/tabbar/cart.png", 
+        "selectedIconPath": "/assets/tabbar/cart-active.png"
+      },
+      {
+        "text": "我的",
+        "pagePath":  "pages/profile/profile",
+        "iconPath": "/assets/tabbar/profile.png", 
+        "selectedIconPath": "/assets/tabbar/profile-active.png"
+      }
+
+    ]
+  },
   "style": "v2",
   
   "rendererOptions": {
@@ -24,5 +59,4 @@
   },
   "componentFramework": "glass-easel",
   "sitemapLocation": "sitemap.json"
-
 }
