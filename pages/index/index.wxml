@@ -1,14 +1,20 @@
 <!--轮播图-->
 <view class="swiper">
-  <swiper autoplay="true" interval="1000" indicator-dots="true" circular="true">
+  <swiper 
+    autoplay="true"
+    interval="2000"
+    indicator-dots="true" 
+    circular="true" 
+    easing-function="easeInOutCubic"
+  >
     <swiper-item>
-      1
+      <image src="../../assets/banner/banner-1.png" mode=""/>
     </swiper-item>
     <swiper-item>
-    2
+      <image src="../../assets/banner/banner-2.png" mode=""/>
     </swiper-item>
     <swiper-item>
-    3
+      <image src="../../assets/banner/banner-3.png" mode=""/>
     </swiper-item>
   </swiper>
 </view>
@@ -21,4 +27,3 @@
 
 <!--推荐信息-->
 <view class="good-hot"></view>
-<view></view>

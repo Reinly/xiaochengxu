@@ -6,15 +6,12 @@ page {
 .swiper{
   swiper{
     height: 360rpx;
-    background-color: lightseagreen;
-
     swiper-item{
-      &:first-child{
-        background-color: magenta;
-      }
-      &:last-child{
-        background-color: mediumblue;
-      }
+      image {
+        width: 100%;
+        height: 100%;
+      }   
+         
     }
   }
 
