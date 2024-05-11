@@ -1,0 +1,21 @@
+/**index.wxss**/
+page {
+  height: 100vh;
+  background-color: #efefef !important;
+}
+.swiper{
+  swiper{
+    height: 360rpx;
+    background-color: lightseagreen;
+
+    swiper-item{
+      &:first-child{
+        background-color: magenta;
+      }
+      &:last-child{
+        background-color: mediumblue;
+      }
+    }
+  }
+
+}

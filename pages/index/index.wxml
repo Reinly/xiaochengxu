@@ -1,5 +1,17 @@
 <!--轮播图-->
-<view class="swiper"></view>
+<view class="swiper">
+  <swiper autoplay="true" interval="1000" indicator-dots="true" circular="true">
+    <swiper-item>
+      1
+    </swiper-item>
+    <swiper-item>
+    2
+    </swiper-item>
+    <swiper-item>
+    3
+    </swiper-item>
+  </swiper>
+</view>
 
 <!--公司信息-->
 <view class="info"></view>
