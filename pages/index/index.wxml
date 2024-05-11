@@ -1,11 +1,12 @@
-<!--index.wxml-->
-<navigation-bar title="Weixin" back="{{false}}" color="black" background="#FFF"></navigation-bar>
+<!--轮播图-->
+<view class="swiper"></view>
 
-  <view class="container" bindtap="getData">
-    Weixin1我是首页
-    <view>你好</view>
-  <button type="warn" bindtap="getData">按钮</button>
-  </view>
-  
-  
+<!--公司信息-->
+<view class="info"></view>
 
+<!--商品导航条-->
+<view class="good-nva"></view>
+
+<!--推荐信息-->
+<view class="good-hot"></view>
+<view></view>
