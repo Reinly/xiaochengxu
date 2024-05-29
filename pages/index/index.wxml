@@ -33,34 +33,45 @@
 <!--商品导航条-->
 <view class="good-nva">
   <view>
-    <image src="../../assets/category/cate-1.png" mode=""/>
-    <text>鲜花玫瑰</text>
+    <navigator url="/pages/list/list">
+      <image src="../../assets/category/cate-1.png" mode=""/>
+      <text>鲜花玫瑰</text>
+    </navigator>
+    
   </view>
 
   <view>
-    <image src="../../assets/category/cate-1.png" mode=""/>
-    <text>鲜花玫瑰</text>
+    <navigator url="">
+      <image src="../../assets/category/cate-2.png" mode=""/>
+      <text>鲜花玫瑰</text>
+    </navigator>
+    
   </view>
 
   <view>
-    <image src="../../assets/category/cate-1.png" mode=""/>
-    <text>鲜花玫瑰</text>
+    <navigator url="">
+      <image src="../../assets/category/cate-3.png" mode=""/>
+      <text>鲜花玫瑰</text>
+    </navigator>
+    
   </view>
 
   <view>
-    <image src="../../assets/category/cate-1.png" mode=""/>
-    <text>鲜花玫瑰</text>
+    <navigator url="">
+      <image src="../../assets/category/cate-4.png" mode=""/>
+      <text>鲜花玫瑰</text>
+    </navigator>
+   
   </view>
 
   <view>
-    <image src="../../assets/category/cate-1.png" mode=""/>
-    <text>鲜花玫瑰</text>
+    <navigator url="">
+      <image src="../../assets/category/cate-5.png" mode=""/>
+      <text>鲜花玫瑰</text>
+    </navigator>
+   
   </view>
-
-  <view>
-    <image src="../../assets/category/cate-1.png" mode=""/>
-    <text>鲜花玫瑰</text>
-  </view>
+   
 </view>
 
 <!--推荐信息-->
