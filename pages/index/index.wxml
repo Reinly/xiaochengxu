@@ -31,7 +31,37 @@
 </view>
 
 <!--商品导航条-->
-<view class="good-nva"></view>
+<view class="good-nva">
+  <view>
+    <image src="../../assets/category/cate-1.png" mode=""/>
+    <text>鲜花玫瑰</text>
+  </view>
+
+  <view>
+    <image src="../../assets/category/cate-1.png" mode=""/>
+    <text>鲜花玫瑰</text>
+  </view>
+
+  <view>
+    <image src="../../assets/category/cate-1.png" mode=""/>
+    <text>鲜花玫瑰</text>
+  </view>
+
+  <view>
+    <image src="../../assets/category/cate-1.png" mode=""/>
+    <text>鲜花玫瑰</text>
+  </view>
+
+  <view>
+    <image src="../../assets/category/cate-1.png" mode=""/>
+    <text>鲜花玫瑰</text>
+  </view>
+
+  <view>
+    <image src="../../assets/category/cate-1.png" mode=""/>
+    <text>鲜花玫瑰</text>
+  </view>
+</view>
 
 <!--推荐信息-->
 <view class="good-hot"></view>
