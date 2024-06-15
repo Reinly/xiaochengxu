@@ -63,3 +63,31 @@ page {
     }
   }
 }
+.scroll-x{
+  width: 100%;
+  white-space: nowrap;
+  background-color: red;
+
+  view{
+    display: inline-block;
+    width: 300rpx;
+    height: 80rpx;
+
+    &:last-child{
+      background-color: slateblue;
+    }
+    &:first-child{
+      background-color: #f60;
+    }
+  }
+}
+
+.scroll-y{
+  height: 400rpx;
+  background-color: slategray;
+  margin-top: 10rpx;
+
+  view{
+    height: 400rpx;
+  }
+}
