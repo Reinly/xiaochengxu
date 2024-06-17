@@ -75,16 +75,48 @@
 </view>
 
 <!--推荐信息-->
-<view class="good-hot"></view>
+<view class="good-hot">
+  <scroll-view scroll-x="true" class="scroll-x">
+    <view>
+      <view class="good-item">
+        <image src="../../assets/floor/1.png" mode=""/>
+        <text>鲜花玫瑰</text>
+        <text>￥9.9</text>
+      </view>
+    </view>
+    <view>
+      <view class="good-item">
+        <image src="../../assets/floor/2.png" mode=""/>
+        <text>鲜花玫瑰</text>
+        <text>￥29.9</text>
+      </view>
+    </view>
+    <view>
+      <view class="good-item">
+        <image src="../../assets/floor/3.png" mode=""/>
+        <text>鲜花玫瑰</text>
+        <text>￥39.9</text>
+      </view>
+      <view>
+      <view class="good-item">
+        <image src="../../assets/floor/4.png" mode=""/>
+        <text>鲜花玫瑰</text>
+        <text>￥49.9</text>
+      </view>
+    </view>
+    <view>
+      <view class="good-item">
+        <image src="../../assets/floor/5.png" mode=""/>
+        <text>鲜花玫瑰</text>
+        <text>￥59.9</text>
+      </view>
+    </view>
+    
+    </view>
+  
+  </scroll-view>
+</view>
 
-<scroll-view scroll-x="true" class="scroll-x">
-  <view>1</view>
-  <view>2</view>
-  <view>3</view>
-</scroll-view>
 
-<scroll-view scroll-y="true" class="scroll-y">
-  <view>1</view>
-  <view>2</view>
-  <view>3</view>
-</scroll-view>
+
+
