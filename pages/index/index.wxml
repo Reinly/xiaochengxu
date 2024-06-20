@@ -21,10 +21,10 @@
 
 <!--公司信息-->
 <view class="info">
-  <text>同城配送</text>
-  <text>行业龙头</text>
-  <text>半小时送达</text>
-  <text>100% 好评</text>
+  <text><text class="iconfont icon-tongchengpeisong"></text>同城配送</text>
+  <text><text class="iconfont icon-hangyelongtou"></text>行业龙头</text>
+  <text><text class="iconfont icon-time"></text>半小时送达</text>
+  <text><text class="iconfont icon-haoping"></text>100% 好评</text>
   
   
   
